@@ -1,7 +1,7 @@
 # Hyperspherical-Margin-Weighting (HMW)
 This is the official PyTorch implementation of our work [Learning with Noisy Labels Using Hyperspherical Margin Weighting](https://www.sciencedirect.com/science/article/pii/S0950705123000485), which has been published in AAAI-24. This repo contains some key codes of our HMW and its application in CIFAR10/CIFAR100 dataset.<br>
 <div align=center>
-<img width="800" src="https://github.com/Zhangshuojackpot/Label-Decoupling-Module/blob/main/introduction.png"/>
+<img width="800" src="https://github.com/Zhangshuojackpot/HMW/blob/main/4766.png"/>
 </div>
 
 ### Abstract
