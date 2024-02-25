@@ -1,5 +1,5 @@
 # Hyperspherical-Margin-Weighting (HMW)
-This is the official PyTorch implementation of our work [Learning with Noisy Labels Using Hyperspherical Margin Weighting](https://www.sciencedirect.com/science/article/pii/S0950705123000485), which has been published in AAAI-24. This repo contains some key codes of our HMW and its application in CIFAR10/CIFAR100 dataset.<br>
+This is the official PyTorch implementation of our work [Learning with Noisy Labels Using Hyperspherical Margin Weighting](https://assets.underline.io/lecture/92576/paper/d8dd287c7e8050f705e12e122847cdb0.pdf?Expires=1709020119&Signature=u-yG0NYH~LDQ-E1mYtHjivLzuNVTDqjD1Q3b4U~vTbFTRu9x2Y~~7Z7wBW8h3rQx7V9seEOVqFCESla4Kr7Akk8UZrwSf00DEioV-tCR1BvSza3pk8t3l2h4yS29r9iBPF6WC~IAQ0kO-2~Mw7q5f0lzpSLqooj6p0cYpCP1z8DdoVmRR9hRjjSCzPC3zPxI4yZuwIY0kr7bhnOsXP0X4WUmcf45rk1oIT9HDdwpPmVW~drxuOlPbeyiwGR6gmlH~a2R6hf~vKOv~kRb8OcA5ITEcZde~ZxFlg7g~wGczzA4l0fRqwvjhjg36djVFJcHlP2juf1uXQuZBlXOi2yXbw__&Key-Pair-Id=K2CNXR0DE4O7J0), which has been published in AAAI-24. This repo contains some key codes of our HMW and its application in CIFAR10/CIFAR100 dataset.<br>
 <div align=center>
 <img width="800" src="https://github.com/Zhangshuojackpot/HMW/blob/main/4766.png"/>
 </div>
