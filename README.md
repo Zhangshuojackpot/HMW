@@ -8,7 +8,7 @@ This is the official PyTorch implementation of our work [Learning with Noisy Lab
 Datasets often include noisy labels, but learning from them is difficult. Since mislabeled examples usually have larger loss values in training, the small-loss trick is regarded as a standard metric to identify the clean example from the training set for better performance. Nonetheless, this proposal ignores that some clean but hard-to-learn examples also generate large losses. They could be misidentified by this criterion. In this paper, we propose a new metric called the Integrated Area Margin (IAM), which is superior to the traditional small-loss trick, particularly in recognizing the clean but hard-to-learn examples. According to the IAM, we further offer the Hyperspherical Margin Weighting (HMW) approach. It is a new sample weighting strategy that restructures the importance of each example. It should be highlighted that our approach is universal and can strengthen various methods in this field. Experiments on both benchmark and real-world datasets indicate that our HMW outperforms many state-of-the-art approaches in learning with noisy label tasks.
 
 ### Preparation
-The experimental environment is in [requirements.txt](https://github.com/Zhangshuojackpot/Student-Loss/blob/main/requirements.txt).<br>
+The experimental environment is in [requirements.txt](https://github.com/Zhangshuojackpot/HMW/blob/main/requirements.txt).<br>
 
 ### Usage
 Run [train_main.py](https://github.com/Zhangshuojackpot/HMW/blob/main/HMW_upload/train_main.py) to obtain the results. For example, if you want to obtain the result of the HMW+CCE under the noise rate of 0.2 of the symmetric noise on CIFAR10, you can type:<br>
