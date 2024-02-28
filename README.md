@@ -24,27 +24,16 @@ python train_main.py --if_tkum 1 --if_anneal 1 --if_spherical 1 --seed 123 --dat
 ```
 
 ### Citation
-If you think this repo is useful in your research, please consider citing our paper.
+If you think this repo is useful in your research, please consider citing our paper (We will add the bibtex format of our paper when it has been officially published online by AAAI-24).
+
+Meanwhile, our implementation uses parts of some public codes in [UniCon: Combating Label Noise Through Uniform Selection and Contrastive Learning](https://openaccess.thecvf.com/content/CVPR2022/html/Karim_UniCon_Combating_Label_Noise_Through_Uniform_Selection_and_Contrastive_Learning_CVPR_2022_paper.html). Please consider citing this paper.
 ```
-@ARTICLE{10412669,
-  author={Zhang, Shuo and Li, Jian-Qing and Fujita, Hamido and Li, Yu-Wen and Wang, Deng-Bao and Zhu, Ting-Ting and Zhang, Min-Ling and Liu, Cheng-Yu},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  title={Student Loss: Towards the Probability Assumption in Inaccurate Supervision}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-15},
-  doi={10.1109/TPAMI.2024.3357518}}
-```
-Meanwhile, our implementation uses parts of some public codes in [Learning With Noisy Labels via Sparse Regularization
-](https://openaccess.thecvf.com/content/ICCV2021/html/Zhou_Learning_With_Noisy_Labels_via_Sparse_Regularization_ICCV_2021_paper.html). Please consider citing this paper.
-```
-@InProceedings{Zhou_2021_ICCV,
-    author    = {Zhou, Xiong and Liu, Xianming and Wang, Chenyang and Zhai, Deming and Jiang, Junjun and Ji, Xiangyang},
-    title     = {Learning With Noisy Labels via Sparse Regularization},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {72-81}
+@InProceedings{Karim_2022_CVPR,
+    author    = {Karim, Nazmul and Rizve, Mamshad Nayeem and Rahnavard, Nazanin and Mian, Ajmal and Shah, Mubarak},
+    title     = {UniCon: Combating Label Noise Through Uniform Selection and Contrastive Learning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {9676-9686}
 }
 ```
