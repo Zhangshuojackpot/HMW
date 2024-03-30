@@ -25,7 +25,7 @@ python train_main.py --if_tkum 1 --if_anneal 1 --if_spherical 1 --seed 123 --dat
 
 ### Citation
 If you think this repo is useful in your research, please consider citing our paper.
-'''
+```
 @article{Zhang_Li_Wang_Li_Liu_2024, 
 title={Learning with Noisy Labels Using Hyperspherical Margin Weighting}, 
 volume={38}, url={https://ojs.aaai.org/index.php/AAAI/article/view/29626}, 
@@ -35,7 +35,7 @@ year={2024},
 month={Mar.}, 
 pages={16848-16856} 
 }
-'''
+```
 
 Meanwhile, our implementation uses parts of some public codes in [UniCon: Combating Label Noise Through Uniform Selection and Contrastive Learning](https://openaccess.thecvf.com/content/CVPR2022/html/Karim_UniCon_Combating_Label_Noise_Through_Uniform_Selection_and_Contrastive_Learning_CVPR_2022_paper.html). Please consider citing this paper.
 ```
