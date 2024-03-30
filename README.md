@@ -1,5 +1,5 @@
 # Hyperspherical-Margin-Weighting (HMW)
-This is the official PyTorch implementation of our work [Learning with Noisy Labels Using Hyperspherical Margin Weighting](https://assets.underline.io/lecture/92576/paper/d8dd287c7e8050f705e12e122847cdb0.pdf?Expires=1709306131&Signature=Pk7supOyqA3~Os3I2ScI23514svtHlgWd1YdcFrlw7pCTrywlU00UtvsWv5IHTnhe-wfyOXkAZJxRqnwwzjqIUAflHCTLPZLSVpUtX~nq32vt9cjn80JsQocMsq4jUx-4JDjPdVsXO1ALR9HGxqTtJX4Y-elbm0Y3p0ZLoCHaAMDC-5c6soDnxoo~ixLFjn2A~DVBPFSivXWnlnFWv6gJ7sBGpQB7VlL1aqzQNpWWisgLDncrouja26BE9vbdZQzh6xXw3LGv4NrgTHfJWHh9W~h6TlNfVLTT-JoQeKlAia9sJq0ZqgF89nGFRTcLGYnG6cdMRt2hKDFuB1TAzN-3Q__&Key-Pair-Id=K2CNXR0DE4O7J0), which has been published in AAAI-24. This repo contains some key codes of our HMW and its application in CIFAR10/CIFAR100 dataset.<br>
+This is the official PyTorch implementation of our work [Learning with Noisy Labels Using Hyperspherical Margin Weighting](https://ojs.aaai.org/index.php/AAAI/article/view/29626), which has been published in AAAI-24. This repo contains some key codes of our HMW and its application in CIFAR10/CIFAR100 dataset.<br>
 <div align=center>
 <img width="800" src="https://github.com/Zhangshuojackpot/HMW/blob/main/4766.png"/>
 </div>
@@ -24,7 +24,18 @@ python train_main.py --if_tkum 1 --if_anneal 1 --if_spherical 1 --seed 123 --dat
 ```
 
 ### Citation
-If you think this repo is useful in your research, please consider citing our paper (We will add the bibtex format of our paper when it has been officially published online by AAAI-24).
+If you think this repo is useful in your research, please consider citing our paper.
+'''
+@article{Zhang_Li_Wang_Li_Liu_2024, 
+title={Learning with Noisy Labels Using Hyperspherical Margin Weighting}, 
+volume={38}, url={https://ojs.aaai.org/index.php/AAAI/article/view/29626}, 
+DOI={10.1609/aaai.v38i15.29626}, 
+author={Zhang, Shuo and Li, Yuwen and Wang, Zhongyu and Li, Jianqing and Liu, Chengyu}, 
+year={2024}, 
+month={Mar.}, 
+pages={16848-16856} 
+}
+'''
 
 Meanwhile, our implementation uses parts of some public codes in [UniCon: Combating Label Noise Through Uniform Selection and Contrastive Learning](https://openaccess.thecvf.com/content/CVPR2022/html/Karim_UniCon_Combating_Label_Noise_Through_Uniform_Selection_and_Contrastive_Learning_CVPR_2022_paper.html). Please consider citing this paper.
 ```
