@@ -28,7 +28,8 @@ If you think this repo is useful in your research, please consider citing our pa
 ```
 @article{Zhang_Li_Wang_Li_Liu_2024, 
 title={Learning with Noisy Labels Using Hyperspherical Margin Weighting}, 
-volume={38}, url={https://ojs.aaai.org/index.php/AAAI/article/view/29626}, 
+volume={38},
+url={https://ojs.aaai.org/index.php/AAAI/article/view/29626}, 
 DOI={10.1609/aaai.v38i15.29626}, 
 author={Zhang, Shuo and Li, Yuwen and Wang, Zhongyu and Li, Jianqing and Liu, Chengyu}, 
 year={2024}, 
