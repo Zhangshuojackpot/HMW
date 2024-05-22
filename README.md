@@ -13,13 +13,23 @@ The experimental environment is in [requirements.txt](https://github.com/Zhangsh
 ### Usage
 Run [train_main.py](https://github.com/Zhangshuojackpot/HMW/blob/main/HMW_upload/train_main.py) to obtain the results. For example, if you want to obtain the result of the HMW+CCE under the noise rate of 0.2 of the symmetric noise on CIFAR10, you can type:<br>
 ```
-python train_main.py --if_tkum 1 --if_anneal 1 --if_spherical 1 --seed 123 --dataset 'cifar10' --num_class 10 --data_path './data/cifar10' --noise_mode 'sym' --num_epochs 250 --milestones '125/200' --r 0.2 --method 'hmw+cce' --alpha_nmw 100 --beta_nmw 100 --top_rate_nmw 0.01 --check_loc './checkpoint_cifar10_cce_final_sym_hmw/'
+python train_main.py --if_aum 1 --if_anneal 1 --if_spherical 1 --seed 123 --dataset 'cifar10' --num_class 10 --data_path './data/cifar10' --noise_mode 'sym' --num_epochs 250 --milestones '125/200' --r 0.2 --method 'hmw+cce' --alpha_nmw 100 --beta_nmw 100 --top_rate_nmw 0.01 --check_loc './checkpoint_cifar10_cce_final_sym_hmw/'
+
+```
+If you hope to use the proposed TKUM metric only for weighting, you can type:<br>
+```
+python train_main.py --if_aum 0 --if_anneal 1 --if_spherical 1 --seed 123 --dataset 'cifar10' --num_class 10 --data_path './data/cifar10' --noise_mode 'sym' --num_epochs 250 --milestones '125/200' --r 0.2 --method 'hmw+cce' --alpha_nmw 100 --beta_nmw 100 --top_rate_nmw 0.01 --check_loc './checkpoint_cifar10_cce_final_sym_hmw/'
 
 ```
 
 If you want to obtain the result of the HMW+CCE under the noise rate of 0.2 of the symmetric noise on CIFAR100, you can type:<br>
 ```
-python train_main.py --if_tkum 1 --if_anneal 1 --if_spherical 1 --seed 123 --dataset 'cifar100' --num_class 100 --data_path './data/cifar100' --noise_mode 'sym' --num_epochs 250 --milestones '125/200' --r 0.2 --method 'hmw+cce' --alpha_nmw 100 --beta_nmw 100 --top_rate_nmw 0.01 --check_loc './checkpoint_cifar100_cce_final_sym_hmw/'
+python train_main.py --if_aum 1 --if_anneal 1 --if_spherical 1 --seed 123 --dataset 'cifar100' --num_class 100 --data_path './data/cifar100' --noise_mode 'sym' --num_epochs 250 --milestones '125/200' --r 0.2 --method 'hmw+cce' --alpha_nmw 100 --beta_nmw 100 --top_rate_nmw 0.01 --check_loc './checkpoint_cifar100_cce_final_sym_hmw/'
+
+```
+If you hope to use the proposed TKUM metric only for weighting, you can type:<br>
+```
+python train_main.py --if_aum 0 --if_anneal 1 --if_spherical 1 --seed 123 --dataset 'cifar100' --num_class 100 --data_path './data/cifar100' --noise_mode 'sym' --num_epochs 250 --milestones '125/200' --r 0.2 --method 'hmw+cce' --alpha_nmw 100 --beta_nmw 100 --top_rate_nmw 0.01 --check_loc './checkpoint_cifar100_cce_final_sym_hmw/'
 
 ```
 
